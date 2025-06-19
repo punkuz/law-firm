@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+     // --- NEW: Set Dynamic Year in Footer ---
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) { // Check if the element exists on the page
+        yearSpan.textContent = new Date().getFullYear();
+    }
+
   // --- NEW: Hero Carousel Logic ---
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
