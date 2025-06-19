@@ -519,3 +519,101 @@ section {
         font-size: 2.2rem;
     }
 }
+
+/* css/styles.css */
+
+/* --- NEW: Login Page Styles --- */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--light-gray);
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.login-box p {
+    margin-bottom: 25px;
+    color: var(--text-color);
+}
+
+.login-box .form-group {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box .btn {
+    width: 100%;
+}
+
+.error-text {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    min-height: 1.2em; /* Prevents layout shift when message appears */
+}
+
+/* css/styles.css */
+
+/* --- NEW: 404 Error Page Styles --- */
+.error-page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh; /* Use vh to push footer down */
+    padding: 40px 20px;
+}
+
+.error-content h1 {
+    font-size: 10rem;
+    color: var(--primary-color);
+    margin: 0;
+    line-height: 1;
+}
+
+.error-content h2 {
+    font-size: 2.5rem;
+    color: var(--dark-gray);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.error-content p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.error-content .btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+}
+
+@media(max-width: 768px) {
+    .error-content h1 {
+        font-size: 8rem;
+    }
+    .error-content h2 {
+        font-size: 2rem;
+    }
+}
