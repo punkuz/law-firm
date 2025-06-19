@@ -163,15 +163,15 @@ section {
 /* Add these new rules, for example after the .slide rule */
 
 .slide.bg-1 {
-    background-image: url('../images/hero-1.jpg'); /* Note the path ../ to go up one level from /css */
+    background-image: url('../assets/images/hero-1.jpg'); /* Note the path ../ to go up one level from /css */
 }
 
 .slide.bg-2 {
-    background-image: url('../images/hero-2.jpeg');
+    background-image: url('../assets/images/hero-2.jpeg');
 }
 
 .slide.bg-3 {
-    background-image: url('../images/hero-3.jpg');
+    background-image: url('../assets/images/hero-3.jpg');
 }
 
 .slide.active {
